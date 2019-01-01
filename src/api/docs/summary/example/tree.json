@@ -6,10 +6,10 @@
 		"iban_payment": "818"
 	},
 	"url": {
-		"avatars": "http:\/\/static.test.wooppay.com\/avatar",
-		"bank_pictures": "http:\/\/static.test.wooppay.com\/bank",
-		"service_menu_pictures": "http:\/\/static.test.wooppay.com\/service_menu",
-		"service_pictures": "http:\/\/static.test.wooppay.com\/service"
+		"avatars": "http:\/\/static.test.example.com\/avatar",
+		"bank_pictures": "http:\/\/static.test.example.com\/bank",
+		"service_menu_pictures": "http:\/\/static.test.example.com\/service_menu",
+		"service_pictures": "http:\/\/static.test.example.com\/service"
 	},
 	"last_modified": {
 		"city": "2018-07-06T12:55:56Z",
