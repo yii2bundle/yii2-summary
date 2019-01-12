@@ -13,7 +13,7 @@ use yii2module\summary\domain\interfaces\services\BaseInterface;
  *
  * @property \yii2module\summary\domain\Domain $domain
  */
-abstract class BaseService extends \yii2lab\domain\services\BaseService implements BaseInterface {
+abstract class BaseService extends \yii2lab\domain\services\base\BaseService implements BaseInterface {
 	
 	const TYPE = null;
 	
