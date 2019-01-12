@@ -3,7 +3,6 @@
 namespace yii2module\summary\domain\repositories\filedb;
 
 use yii2lab\domain\data\Query;
-use yii2lab\domain\repositories\ActiveArRepository;
 use yii2lab\extension\filedb\repositories\base\BaseActiveFiledbRepository;
 use yii2module\summary\domain\entities\SummaryEntity;
 

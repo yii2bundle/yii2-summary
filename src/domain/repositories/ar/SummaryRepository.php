@@ -3,9 +3,9 @@
 namespace yii2module\summary\domain\repositories\ar;
 
 use yii2lab\domain\data\Query;
-use yii2lab\domain\repositories\ActiveArRepository;
+use yii2lab\extension\activeRecord\repositories\base\BaseActiveArRepository;
 
-class SummaryRepository extends ActiveArRepository {
+class SummaryRepository extends BaseActiveArRepository {
 	
 	public function tableName() {
 		return 'summary_resource';
