@@ -4,10 +4,10 @@ namespace yii2module\summary\domain\services;
 
 use Yii;
 use yii\helpers\ArrayHelper;
-use yii2lab\app\domain\helpers\EnvService;
-use yii2lab\domain\data\Query;
-use yii2lab\domain\services\base\BaseService;
-use yii2lab\extension\arrayTools\helpers\ArrayIterator;
+use yii2rails\app\domain\helpers\EnvService;
+use yii2rails\domain\data\Query;
+use yii2rails\domain\services\base\BaseService;
+use yii2rails\extension\arrayTools\helpers\ArrayIterator;
 use yii2module\summary\domain\entities\SummaryEntity;
 use yii2module\summary\domain\enums\TypeEnum;
 use yii2module\summary\domain\helpers\ModifiedHelper;

@@ -3,7 +3,7 @@
 namespace yii2module\summary\domain\services;
 
 use yii\helpers\ArrayHelper;
-use yii2lab\domain\data\Query;
+use yii2rails\domain\data\Query;
 use yii2module\summary\domain\interfaces\services\BaseInterface;
 
 /**
@@ -13,7 +13,7 @@ use yii2module\summary\domain\interfaces\services\BaseInterface;
  *
  * @property \yii2module\summary\domain\Domain $domain
  */
-abstract class BaseService extends \yii2lab\domain\services\base\BaseService implements BaseInterface {
+abstract class BaseService extends \yii2rails\domain\services\base\BaseService implements BaseInterface {
 	
 	const TYPE = null;
 	

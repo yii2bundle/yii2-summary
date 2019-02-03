@@ -2,8 +2,8 @@
 
 namespace yii2module\summary\domain\repositories\ar;
 
-use yii2lab\domain\data\Query;
-use yii2lab\extension\activeRecord\repositories\base\BaseActiveArRepository;
+use yii2rails\domain\data\Query;
+use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
 
 class SummaryRepository extends BaseActiveArRepository {
 	

@@ -3,8 +3,8 @@
 namespace yii2module\summary\domain\services;
 
 use Yii;
-use yii2lab\app\domain\helpers\EnvService;
-use yii2lab\domain\services\base\BaseActiveService;
+use yii2rails\app\domain\helpers\EnvService;
+use yii2rails\domain\services\base\BaseActiveService;
 
 class StaticService extends BaseActiveService {
 	

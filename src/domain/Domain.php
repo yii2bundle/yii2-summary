@@ -2,7 +2,7 @@
 
 namespace yii2module\summary\domain;
 
-use yii2lab\domain\enums\Driver;
+use yii2rails\domain\enums\Driver;
 use yii2module\summary\domain\services\StaticService;
 
 /**
@@ -15,7 +15,7 @@ use yii2module\summary\domain\services\StaticService;
  * @property-read \yii2module\summary\domain\interfaces\services\SummaryInterface $summary
  * @property-read \yii2module\summary\domain\interfaces\services\UrlInterface $url
  */
-class Domain extends \yii2lab\domain\Domain {
+class Domain extends \yii2rails\domain\Domain {
 	
 	public function config() {
 		return [
